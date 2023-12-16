@@ -1,7 +1,6 @@
 package main
 
 import (
-	"database/db"
 	"database/sql"
 	"fmt"
 	"log"
@@ -10,7 +9,7 @@ import (
 	"github.com/go-sql-driver/mysql"
 )
 
-// var db *sql.DB
+var db *sql.DB
 
 type Album struct {
 	ID     int64
